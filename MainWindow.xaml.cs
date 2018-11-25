@@ -75,5 +75,11 @@ namespace Eurus_Asistant
         {
             DragMove();
         }
+
+        private void conf_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            configuracion conf = new configuracion();
+            conf.ShowDialog();
+        }
     }
 }

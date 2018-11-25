@@ -17,5 +17,6 @@
         <Label x:Name="label" Content="Eurus" HorizontalAlignment="Left" Margin="25,-16,0,0" VerticalAlignment="Top" Height="87" Width="170" Foreground="#FF96BFCB" FontSize="72" FontFamily="Yellowtail"/>
         <Ellipse x:Name="move_2_Copy" Fill="#FF50AE24" HorizontalAlignment="Left" Height="16" Margin="474,12,0,0" VerticalAlignment="Top" Width="15"/>
         <Ellipse x:Name="move_2_Copy1" Fill="#FFEEEE1F" HorizontalAlignment="Left" Height="16" Margin="454,12,0,0" VerticalAlignment="Top" Width="15"/>
+        <Ellipse x:Name="conf" Fill="#FF10243C" HorizontalAlignment="Left" Height="16" Margin="474,142,0,0" VerticalAlignment="Top" Width="15" MouseLeftButtonUp="conf_MouseLeftButtonUp"/>
     </Grid>
 </Window>
