@@ -4,15 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Speech.Recognition;
+using System.Speech.Synthesis;
+
 namespace Entidades
 {
     public class configuracion
     {
         string voz;
-        public static string  nombreAsistente;
+        public static string nombreAsistente;
         string nombreUsuario;
 
-     
+
 
         public string NombreAsistente
         {

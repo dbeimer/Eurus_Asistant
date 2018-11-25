@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Eurus_Asistant"
+        xmlns:ed="http://schemas.microsoft.com/expression/2010/drawing" x:Name="principal" x:Class="Eurus_Asistant.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="167.183" Width="525" Background="{x:Null}" AllowsTransparency="True" WindowStyle="None">
+    <Grid>
+        <Rectangle Fill="#FF125676" HorizontalAlignment="Left" Height="169" Margin="-1,-2,0,0" VerticalAlignment="Top" Width="526" Opacity="0.8"/>
+        <ProgressBar x:Name="pgbNivelVoz" HorizontalAlignment="Left" Height="41" Margin="25,76,0,0" VerticalAlignment="Top" Width="454" Foreground="#FFE3F3FB" Opacity="0.2" Background="{x:Null}" BorderBrush="#FFA1B3BB" Value="50"/>
+        <TextBox x:Name="txtReconoce" HorizontalAlignment="Left" Height="41" Margin="38,81,0,0" TextWrapping="Wrap" Text="Hola soy Eurus" VerticalAlignment="Top" Width="441" Background="{x:Null}" Foreground="#FFB9C9D1" FontSize="18" BorderBrush="{x:Null}"/>
+        <Ellipse x:Name="move" Fill="#FF10243C" HorizontalAlignment="Left" Height="16" Margin="494,142,0,0" VerticalAlignment="Top" Width="15" MouseLeftButtonDown="move_MouseLeftButtonDown"/>
+        <Ellipse x:Name="move_2" Fill="#FF8B0D0D" HorizontalAlignment="Left" Height="16" Margin="494,12,0,0" VerticalAlignment="Top" Width="15"/>
+        <Label x:Name="lblMensaje" Content="..." HorizontalAlignment="Left" Margin="25,122,0,0" VerticalAlignment="Top" Foreground="#FFFDFBFB" Width="349" Height="30"/>
+        <Label x:Name="label" Content="Eurus" HorizontalAlignment="Left" Margin="25,-16,0,0" VerticalAlignment="Top" Height="87" Width="170" Foreground="#FF96BFCB" FontSize="72" FontFamily="Yellowtail"/>
+        <Ellipse x:Name="move_2_Copy" Fill="#FF50AE24" HorizontalAlignment="Left" Height="16" Margin="474,12,0,0" VerticalAlignment="Top" Width="15"/>
+        <Ellipse x:Name="move_2_Copy1" Fill="#FFEEEE1F" HorizontalAlignment="Left" Height="16" Margin="454,12,0,0" VerticalAlignment="Top" Width="15"/>
+    </Grid>
+</Window>

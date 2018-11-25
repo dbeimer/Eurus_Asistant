@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eurus_Asistant", "Eurus_Asistant.csproj", "{46F35B6F-7DF2-4E3E-BCF4-C4CE2E9AB8BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{87EF4833-48EB-4DF5-AC10-18836E77806F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica", "Logica\Logica.csproj", "{C11D36A6-A52A-4F41-A107-3B342C4F10E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46F35B6F-7DF2-4E3E-BCF4-C4CE2E9AB8BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F35B6F-7DF2-4E3E-BCF4-C4CE2E9AB8BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F35B6F-7DF2-4E3E-BCF4-C4CE2E9AB8BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F35B6F-7DF2-4E3E-BCF4-C4CE2E9AB8BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87EF4833-48EB-4DF5-AC10-18836E77806F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EF4833-48EB-4DF5-AC10-18836E77806F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87EF4833-48EB-4DF5-AC10-18836E77806F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87EF4833-48EB-4DF5-AC10-18836E77806F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11D36A6-A52A-4F41-A107-3B342C4F10E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11D36A6-A52A-4F41-A107-3B342C4F10E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11D36A6-A52A-4F41-A107-3B342C4F10E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11D36A6-A52A-4F41-A107-3B342C4F10E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

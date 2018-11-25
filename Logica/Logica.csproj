@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A97C888-4956-475B-9498-7914037BF767}</ProjectGuid>
+    <ProjectGuid>{C11D36A6-A52A-4F41-A107-3B342C4F10E0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Logica</RootNamespace>
@@ -41,14 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="configuracionL.cs" />
-    <Compile Include="defaultL.cs" />
+    <Compile Include="DefectoL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{21dd8e77-36a8-410b-9724-ce35cea0261c}</Project>
+      <Project>{87ef4833-48eb-4df5-ac10-18836e77806f}</Project>
       <Name>Entidades</Name>
     </ProjectReference>
   </ItemGroup>

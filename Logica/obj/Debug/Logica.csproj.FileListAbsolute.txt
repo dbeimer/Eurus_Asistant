@@ -1,5 +1,6 @@
-G:\Eurus\Av_Eurus\Logica\bin\Debug\Logica.dll
-G:\Eurus\Av_Eurus\Logica\bin\Debug\Logica.pdb
-G:\Eurus\Av_Eurus\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
-G:\Eurus\Av_Eurus\Logica\obj\Debug\Logica.dll
-G:\Eurus\Av_Eurus\Logica\obj\Debug\Logica.pdb
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\bin\Debug\Logica.dll
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\bin\Debug\Logica.pdb
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\bin\Debug\Entidades.dll
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\bin\Debug\Entidades.pdb
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\obj\Debug\Logica.dll
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\obj\Debug\Logica.pdb

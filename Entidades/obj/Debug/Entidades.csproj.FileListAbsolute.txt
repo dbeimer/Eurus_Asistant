@@ -1,5 +1,5 @@
-G:\Eurus\Av_Eurus\Entidades\bin\Debug\Entidades.dll
-G:\Eurus\Av_Eurus\Entidades\bin\Debug\Entidades.pdb
-G:\Eurus\Av_Eurus\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
-G:\Eurus\Av_Eurus\Entidades\obj\Debug\Entidades.dll
-G:\Eurus\Av_Eurus\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Entidades\bin\Debug\Entidades.dll
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Entidades\obj\Debug\Entidades.dll
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Entidades\obj\Debug\Entidades.pdb
