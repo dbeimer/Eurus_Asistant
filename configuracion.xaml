@@ -7,14 +7,22 @@
         mc:Ignorable="d"
         Title="configuracion" Height="224.742" Width="445.361" AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" Loaded="config_Loaded">
     <Grid>
-        <Rectangle Fill="#FF0B587C" HorizontalAlignment="Left" Height="225" VerticalAlignment="Top" Width="444" Opacity="0.8"/>
-        <Label x:Name="label" Content="Voz" HorizontalAlignment="Left" Margin="35,44,0,0" VerticalAlignment="Top" Foreground="#FFF9F7F7" Opacity="0.5" Height="25" Width="29"/>
-        <ComboBox x:Name="cboVoces" HorizontalAlignment="Left" Margin="168,52,0,0" VerticalAlignment="Top" Width="175" Height="21" DropDownClosed="cboVoces_DropDownClosed"/>
-        <Label x:Name="label1" Content="Nombre Usuario" HorizontalAlignment="Left" Margin="35,74,0,0" VerticalAlignment="Top" Foreground="White" Opacity="0.5" Height="25" Width="96"/>
-        <TextBox x:Name="txtNombreUsuario" HorizontalAlignment="Left" Height="22" Margin="168,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Foreground="White" BorderBrush="{x:Null}" Background="#FF10243C"/>
-        <Label x:Name="label2" Content="Nombre del asistente" HorizontalAlignment="Left" Margin="35,104,0,0" VerticalAlignment="Top" Foreground="#FFFDF7F7" Opacity="0.5" Height="25" Width="121"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="22" Margin="168,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Background="#FF10243C" Foreground="#FFF7F5F5" BorderBrush="{x:Null}"/>
-        <Ellipse x:Name="move" Fill="#FF0C2234" HorizontalAlignment="Left" Height="19" Margin="414,202,0,0" VerticalAlignment="Top" Width="27" MouseLeftButtonDown="move_MouseLeftButtonDown"/>
+        <Rectangle Fill="#FF0B587C" HorizontalAlignment="Left" Height="225" VerticalAlignment="Top" Width="444" Opacity="0.8" Margin="1,10,0,-10"/>
+        <Label x:Name="label" Content="Voz" HorizontalAlignment="Left" Margin="32,61,0,0" VerticalAlignment="Top" Foreground="#FFF9F7F7" Opacity="0.5" Height="25" Width="29"/>
+        <ComboBox x:Name="cboVoces" HorizontalAlignment="Left" Margin="165,69,0,0" VerticalAlignment="Top" Width="175" Height="21" DropDownClosed="cboVoces_DropDownClosed"/>
+        <Label x:Name="label1" Content="Nombre Usuario" HorizontalAlignment="Left" Margin="32,91,0,0" VerticalAlignment="Top" Foreground="White" Opacity="0.5" Height="25" Width="96"/>
+        <TextBox x:Name="txtNombreUsuario" HorizontalAlignment="Left" Height="22" Margin="165,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Foreground="White" BorderBrush="{x:Null}" Background="#FF10243C"/>
+        <Label x:Name="label2" Content="Nombre del asistente" HorizontalAlignment="Left" Margin="32,121,0,0" VerticalAlignment="Top" Foreground="#FFFDF7F7" Opacity="0.5" Height="25" Width="121"/>
+        <TextBox x:Name="txtNombreAsistente" HorizontalAlignment="Left" Height="22" Margin="165,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="175" Background="#FF10243C" Foreground="#FFF7F5F5" BorderBrush="{x:Null}"/>
+        <Ellipse x:Name="move" Fill="#FF0C2234" HorizontalAlignment="Left" Height="19" Margin="414,187,0,0" VerticalAlignment="Top" Width="27" MouseLeftButtonDown="move_MouseLeftButtonDown" MouseMove="move_MouseMove" MouseLeave="move_MouseLeave"/>
+        <Ellipse x:Name="move_Copy" Fill="#FF637583" HorizontalAlignment="Left" Height="19" Margin="414,163,0,0" VerticalAlignment="Top" Width="27" MouseLeftButtonUp="move_Copy_MouseLeftButtonUp" MouseMove="move_Copy_MouseMove" MouseLeave="move_Copy_MouseLeave"/>
+        <Label x:Name="lblGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="356,156,0,0" VerticalAlignment="Top" Foreground="#FF9FBFD8"/>
+        <Ellipse x:Name="move_Copy1" Fill="#FFA1AFB9" HorizontalAlignment="Left" Height="19" Margin="414,139,0,0" VerticalAlignment="Top" Width="27" MouseLeftButtonUp="move_Copy1_MouseLeftButtonUp" MouseMove="move_Copy1_MouseMove" MouseLeave="move_Copy1_MouseLeave"/>
+        <Label x:Name="lblCerrar" Content="Cerrar" HorizontalAlignment="Left" Margin="367,135,0,0" VerticalAlignment="Top" Foreground="#FF9FBFD8"/>
+        <Label x:Name="lblMover" Content="Mover" HorizontalAlignment="Left" Margin="365,182,0,0" VerticalAlignment="Top" Foreground="#FF9FBFD8"/>
+        <Label x:Name="label4" Content="Eurus" HorizontalAlignment="Left" Margin="18,10,0,0" VerticalAlignment="Top" FontFamily="Megrim" Foreground="#FF9FBFD8" FontSize="36"/>
+        <Label x:Name="label5" Content="configuración" HorizontalAlignment="Left" Margin="128,32,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FF9FBFD8" FontFamily="Megrim" RenderTransformOrigin="0.496,0.847"/>
+        <Rectangle Fill="#FF9FBFD8" HorizontalAlignment="Left" Height="1" Margin="133,54,0,0" VerticalAlignment="Top" Width="276"/>
 
     </Grid>
 </Window>

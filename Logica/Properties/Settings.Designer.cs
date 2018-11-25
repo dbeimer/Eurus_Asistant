@@ -26,12 +26,36 @@ namespace Logica.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string nada {
+        public string vozName {
             get {
-                return ((string)(this["nada"]));
+                return ((string)(this["vozName"]));
             }
             set {
-                this["nada"] = value;
+                this["vozName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string userName {
+            get {
+                return ((string)(this["userName"]));
+            }
+            set {
+                this["userName"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string asistantName {
+            get {
+                return ((string)(this["asistantName"]));
+            }
+            set {
+                this["asistantName"] = value;
             }
         }
     }

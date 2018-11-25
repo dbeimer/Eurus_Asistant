@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.Speech.Synthesis;
 using System.Data;
 using Entidades;
+using Logica.Properties;
+
 
 
 
@@ -16,9 +18,9 @@ namespace Logica
         public static SpeechSynthesizer euVoz=new SpeechSynthesizer();
         public static SpeechSynthesizer euVozConfigurada()
         {
-            if (configuracionE.voz!=null)
+            if (Settings.Default.vozName!=null&& Settings.Default.vozName!="")
             {
-                euVoz.SelectVoice(configuracionE.voz);
+                euVoz.SelectVoice(Settings.Default.vozName);
             }
             return euVoz;
         }
@@ -31,6 +33,20 @@ namespace Logica
             }
             // vocesLista.Remove("Microsoft Mike");
             return vocesLista;
+        }
+
+        public static void establecerVoice(string voz)
+        {
+        }
+
+        public static void establecerConfiguracion(configuracionE conf)
+        {
+            Settings.Default.userName = conf.NombreUsuario;
+            Settings.Default.asistantName = conf.NombreAsistente;
+            Settings.Default.vozName = conf.vozAsistente;
+            Settings.Default.Save();
+            configuracionE.cambios = true;
+            
         }
     }
 }

@@ -11,11 +11,13 @@ namespace Entidades
         
             public static string voz;
             public static string nombreAsistente;
-            string nombreUsuario;
+            public static string nombreUsuario;
+
+            public static bool cambios = false;
 
 
-
-            public string NombreAsistente
+        public string vozAsistente { get; set; }
+        public string NombreAsistente
             {
                 get
                 {

@@ -28,6 +28,7 @@ namespace Eurus_Asistant
     /// </summary>
     public partial class MainWindow : Window
     {
+        configuracionE eurus = DefectoL.verificarConf();
         SpeechRecognitionEngine euReco = new SpeechRecognitionEngine();
         SpeechSynthesizer euVoz = configuracionL.euVozConfigurada();
         string fraseReconocida;
@@ -52,22 +53,29 @@ namespace Eurus_Asistant
 
         private void EuReco_AudioLevelUpdated(object sender, AudioLevelUpdatedEventArgs e)
         {
-            //   throw new NotImplementedException();
+            //throw new NotImplementedException();
             pgbNivelVoz.Value = e.AudioLevel;
         }
 
         private void mientrasReconoce(object sender, SpeechRecognizedEventArgs e)
         {
             //    throw new NotImplementedException();
-            euVoz = configuracionL.euVozConfigurada();
+            if (configuracionE.cambios)
+            {
+                euVoz = configuracionL.euVozConfigurada();
+                configuracionE.cambios = false;
+            }
+            
             fraseReconocida = e.Result.Text;
             txtReconoce.Text = fraseReconocida;
-            switch (fraseReconocida.ToLower())
+
+            if (fraseReconocida=="hola "+eurus.NombreAsistente)
             {
-                case "hola eurus":
-                    euVoz.SpeakAsync("hola señor");break;
-                default:
-                    break;
+                    euVoz.SpeakAsync("hola "+eurus.NombreUsuario);
+            }
+            if (fraseReconocida=="hola")
+            {
+                euVoz.SpeakAsync("hola "+eurus.NombreUsuario+" lo escucho");
             }
         }
 
@@ -80,6 +88,11 @@ namespace Eurus_Asistant
         {
             configuracion conf = new configuracion();
             conf.ShowDialog();
+        }
+
+        private void move_2_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            this.Close();
         }
     }
 }

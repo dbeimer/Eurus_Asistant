@@ -1,5 +1,4 @@
 C:\Users\Cryphton\Desktop\Eurus_Asistant\Entidades\bin\Debug\Entidades.dll
 C:\Users\Cryphton\Desktop\Eurus_Asistant\Entidades\bin\Debug\Entidades.pdb
-C:\Users\Cryphton\Desktop\Eurus_Asistant\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
 C:\Users\Cryphton\Desktop\Eurus_Asistant\Entidades\obj\Debug\Entidades.dll
 C:\Users\Cryphton\Desktop\Eurus_Asistant\Entidades\obj\Debug\Entidades.pdb

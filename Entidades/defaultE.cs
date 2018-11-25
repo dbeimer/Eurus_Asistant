@@ -10,7 +10,7 @@ namespace Entidades
     {
         public static string[] aMultimedia = { "pausa", "deten la musica", "reproducir", "play", "siguiente", "siguiente pista", "anterior", "pista anterior", "sube el volumen", "baja el volumen"
                                                 , "stop","detente","OK","suficiente","ahí esta bien"};
-        public static string[] defaultGramar = { "hola", "Hola eurus", "activa el mouse", "inicia el proyecto de pruebas",
+        public static string[] defaultGramar = { "hola","activa el mouse", "inicia el proyecto de pruebas",
                                                     "copiar","copia la selección","copia","copia esto","copialo",
                                                     "muestrame el escritorio", "minimiza todo",
                                                     "pegar","pega","pega aquí",
@@ -23,7 +23,6 @@ namespace Entidades
         public static string[] aAfirmaciones = { "SI", "OK", "afirmativo", "claro" };
         public static string[] aNegaciones = { "NO", "negativo" };
 
-        public static string[] aInicioGramatica = { configuracionE.nombreAsistente == "" ? "Eurus" : configuracionE.nombreAsistente, "oye" };
-        public static string[] aFinGramatica = { configuracionE.nombreAsistente == "" ? "Eurus" : configuracionE.nombreAsistente, "por favor", "porfis" };
+
     }
 }
