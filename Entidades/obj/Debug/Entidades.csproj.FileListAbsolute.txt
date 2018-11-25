@@ -1,0 +1,5 @@
+G:\Eurus\Av_Eurus\Entidades\bin\Debug\Entidades.dll
+G:\Eurus\Av_Eurus\Entidades\bin\Debug\Entidades.pdb
+G:\Eurus\Av_Eurus\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+G:\Eurus\Av_Eurus\Entidades\obj\Debug\Entidades.dll
+G:\Eurus\Av_Eurus\Entidades\obj\Debug\Entidades.pdb

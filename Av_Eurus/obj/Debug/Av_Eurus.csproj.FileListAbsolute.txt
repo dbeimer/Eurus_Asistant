@@ -1,0 +1,16 @@
+G:\Eurus\Av_Eurus\Av_Eurus\bin\Debug\Av_Eurus.exe.config
+G:\Eurus\Av_Eurus\Av_Eurus\bin\Debug\Av_Eurus.exe
+G:\Eurus\Av_Eurus\Av_Eurus\bin\Debug\Av_Eurus.pdb
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\Av_Eurus.csprojResolveAssemblyReference.cache
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\Principal.g.cs
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\App.g.cs
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\Av_Eurus_MarkupCompile.cache
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\Av_Eurus_MarkupCompile.lref
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\Principal.baml
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\Av_Eurus.g.resources
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\Av_Eurus.Properties.Resources.resources
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\Av_Eurus.csproj.GenerateResource.Cache
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\Av_Eurus.exe
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\Av_Eurus.pdb
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\configuracion.g.cs
+G:\Eurus\Av_Eurus\Av_Eurus\obj\Debug\configuracion.baml

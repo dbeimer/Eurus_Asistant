@@ -1,0 +1,5 @@
+G:\Eurus\Av_Eurus\Datos\bin\Debug\Datos.dll
+G:\Eurus\Av_Eurus\Datos\bin\Debug\Datos.pdb
+G:\Eurus\Av_Eurus\Datos\obj\Debug\Datos.csprojResolveAssemblyReference.cache
+G:\Eurus\Av_Eurus\Datos\obj\Debug\Datos.dll
+G:\Eurus\Av_Eurus\Datos\obj\Debug\Datos.pdb

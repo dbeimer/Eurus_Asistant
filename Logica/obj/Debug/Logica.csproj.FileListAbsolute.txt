@@ -1,0 +1,5 @@
+G:\Eurus\Av_Eurus\Logica\bin\Debug\Logica.dll
+G:\Eurus\Av_Eurus\Logica\bin\Debug\Logica.pdb
+G:\Eurus\Av_Eurus\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache
+G:\Eurus\Av_Eurus\Logica\obj\Debug\Logica.dll
+G:\Eurus\Av_Eurus\Logica\obj\Debug\Logica.pdb
