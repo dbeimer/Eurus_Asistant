@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Logica;
+using Entidades;
 
 namespace Eurus_Asistant
 {
@@ -27,6 +29,19 @@ namespace Eurus_Asistant
         private void move_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             DragMove();
+        }
+
+        private void config_Loaded(object sender, RoutedEventArgs e)
+        {
+            foreach (string voz in configuracionL.loadVoces())
+            {
+                cboVoces.Items.Add(voz);
+            }
+        }
+
+        private void cboVoces_DropDownClosed(object sender, EventArgs e)
+        {
+            configuracionE.voz = cboVoces.Text;
         }
     }
 }

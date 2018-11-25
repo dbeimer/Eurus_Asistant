@@ -23,7 +23,7 @@ namespace Entidades
         public static string[] aAfirmaciones = { "SI", "OK", "afirmativo", "claro" };
         public static string[] aNegaciones = { "NO", "negativo" };
 
-        public static string[] aInicioGramatica = { configuracion.nombreAsistente == "" ? "Eurus" : configuracion.nombreAsistente, "oye" };
-        public static string[] aFinGramatica = { configuracion.nombreAsistente == "" ? "Eurus" : configuracion.nombreAsistente, "por favor", "porfis" };
+        public static string[] aInicioGramatica = { configuracionE.nombreAsistente == "" ? "Eurus" : configuracionE.nombreAsistente, "oye" };
+        public static string[] aFinGramatica = { configuracionE.nombreAsistente == "" ? "Eurus" : configuracionE.nombreAsistente, "por favor", "porfis" };
     }
 }

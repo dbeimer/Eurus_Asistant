@@ -4,3 +4,4 @@ C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\bin\Debug\Entidades.dll
 C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\bin\Debug\Entidades.pdb
 C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\obj\Debug\Logica.dll
 C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\obj\Debug\Logica.pdb
+C:\Users\Cryphton\Desktop\Eurus_Asistant\Logica\obj\Debug\Logica.csprojResolveAssemblyReference.cache

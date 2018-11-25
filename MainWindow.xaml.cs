@@ -29,7 +29,7 @@ namespace Eurus_Asistant
     public partial class MainWindow : Window
     {
         SpeechRecognitionEngine euReco = new SpeechRecognitionEngine();
-        SpeechSynthesizer euVoz = new SpeechSynthesizer();
+        SpeechSynthesizer euVoz = configuracionL.euVozConfigurada();
         string fraseReconocida;
         public MainWindow()
         {
@@ -59,7 +59,7 @@ namespace Eurus_Asistant
         private void mientrasReconoce(object sender, SpeechRecognizedEventArgs e)
         {
             //    throw new NotImplementedException();
-
+            euVoz = configuracionL.euVozConfigurada();
             fraseReconocida = e.Result.Text;
             txtReconoce.Text = fraseReconocida;
             switch (fraseReconocida.ToLower())

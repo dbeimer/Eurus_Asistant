@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Eurus_Asistant.Properties {
+namespace Logica.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -26,12 +26,12 @@ namespace Eurus_Asistant.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string vozDefault {
+        public string nada {
             get {
-                return ((string)(this["vozDefault"]));
+                return ((string)(this["nada"]));
             }
             set {
-                this["vozDefault"] = value;
+                this["nada"] = value;
             }
         }
     }
