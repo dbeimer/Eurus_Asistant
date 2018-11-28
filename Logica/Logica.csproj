@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="carpAccionesL.cs" />
+    <Compile Include="carpetasL.cs" />
     <Compile Include="configuracionL.cs" />
     <Compile Include="DefectoL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
